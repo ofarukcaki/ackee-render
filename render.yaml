@@ -13,7 +13,7 @@ services:
   # Once you know the domains being tracked, consider adding them here:
   # See https://docs.ackee.electerious.com/#/docs/CORS%20headers
   - key: ACKEE_ALLOW_ORIGIN
-    value: "*"
+    value: "https://ictihatara.com"
   - key: MONGODB_HOSTPORT
     fromService:
       type: pserv
